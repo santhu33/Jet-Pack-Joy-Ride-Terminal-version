@@ -34,7 +34,7 @@
 
 ## Features:
 
-* Press Spcae to get enable shield. It lasts for 10s and takes 60s more to re-enable it. 
+* Press Space to get enable shield. It lasts for 10s and takes 60s more to re-enable it. 
 
 * Collect '>>' while playing to increase the fastness of game.
 

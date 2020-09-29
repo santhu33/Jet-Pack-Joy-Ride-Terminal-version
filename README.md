@@ -12,7 +12,7 @@
 
 ## Instructions:
 
-    Run python3 main.py to start the game
+    Run 'python3 main.py' to start the game
 
 # OOPS
 

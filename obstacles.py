@@ -18,8 +18,6 @@ class obstacles:
 		self._stick='' #depends on alignment
 		self._length=2
 		self._width=5
-		
-		
 
 	def alignment(self):
 		'''default is horizontal'''
@@ -179,13 +177,3 @@ class Magnet:
 					mx=mando.returnmx()
 					my=mando.returnmy()
 					mando.setpos(matrix,mx,my-1)	
-
-				
-
-
-
-			
-
-		
-
-

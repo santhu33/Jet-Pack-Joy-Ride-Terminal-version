@@ -17,8 +17,6 @@ class lives:
 	def updatevlives(self,x):
 		self.__vlives=x	
 
-
-
 class Matrix:
 	def __init__(self):
 		self.__rows=40
@@ -73,11 +71,8 @@ class Matrix:
 
 	def returnmatrix(self):
 		return self.__matrix	
-
-	
 	
 	'''setter functions'''
-
 	def updatex(self,x):
 		self.__x =x
 
@@ -94,11 +89,7 @@ class Matrix:
 		self.__score=x
 
 	def updatematrix(self,grid):
-		self.__matrix=grid	
-
-
-
-		
+		self.__matrix=grid			
 
 	def display(self,lives,mando,timeleft):
 		temp=''
@@ -142,8 +133,6 @@ class Matrix:
 			temp+=colors['Cyan']+str(numvlives)+RESET
 		temp+='\n'	
 
-
-		
 		for i in range(0,42):
 			for j in range(self.__ystart,self.__ystart+self.__window):
 				if(j>self.__cols-2):
@@ -151,7 +140,5 @@ class Matrix:
 				temp+=self.__matrix[i][j]
 			temp+='\n'
 		temp+= colors['Red'] + "Press Q to exit\n" + RESET
-
-
 
 		return temp

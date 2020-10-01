@@ -17,7 +17,7 @@ mando=Mando(matrix)
 lives=lives()
 bullet=bullets()
 dr=Boss()
-'''to create magent'''
+'''to create magnet'''
 mag=Magnet()
 
 '''for creating beams'''

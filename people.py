@@ -34,10 +34,6 @@ class Person:
 		else:
 			self.__status=0		
 	
-
-	
-
-
 class Mando(Person):
 	def __init__(self,matrix):
 		self.__length=4
@@ -102,7 +98,6 @@ class Mando(Person):
 	def returnpowerup(self):
 		return self.__powerup
 	
-	 
 	def returnmatrix(self):
 		return self.__grid		
 	def returngrid1(self):
@@ -111,7 +106,6 @@ class Mando(Person):
 		return self.__shieldgrid
 	
 	'''setter functions'''
-	
 	def updatemx(self,x):
 		self.__x=x 
 	def updatemy(self,x):
@@ -333,22 +327,3 @@ class Boss(Person):
 			if(iceball[i][0]<50):
 				gridtoin[iceball[i][0]][iceball[i][1]] = iceballcolor
 				matrix.updatematrix(gridtoin)	
-
-
-
-
-
-
-				
-		
-
-
-
-
-
-
-
-
-
-
-

@@ -212,3 +212,4 @@ def removeobs(matrix,x,y,leng,wid):
 		for j in range(y, y +wid):
 			gridtoin[i][j] =' '
 	matrix.updatematrix(gridtoin)
+	

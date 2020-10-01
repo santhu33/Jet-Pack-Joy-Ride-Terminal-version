@@ -184,9 +184,3 @@ class bullets:
 		if flagcoin==1:
 			flagcoin=0
 			return 5
-
-
-
-
-		
-

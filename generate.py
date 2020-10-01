@@ -138,11 +138,3 @@ def generation(matrix,coin,horizontal,vertical,slant,mag,sb,dragon):
 
 
 	dragon.SetPos(matrix,23,460)	
-
-
-
-
-
-
-
-
